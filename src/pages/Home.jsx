@@ -23,13 +23,13 @@ const projects = [
 	{
 		title: "Rock Paper Scissors",
 		desc: "A fun to play rock paper scissors game with bot. Also features auto play mode.",
-		live: "https://arbank007.github.io/Rock-Paper-Scissors/",
+		live: "https://arbabansari.github.io/Rock-Paper-Scissors/",
 		githubLink: "https://github.com/ArbabAnsari/Rock-Paper-Scissors",
 	},
 	{
 		title: "TicTacToe",
 		desc: "TicTacToe game made using HTML, CSS and JS",
-		live: "https://arbank007.github.io/TicTacToe/",
+		live: "https://arbabansari.github.io/TicTacToe/",
 		githubLink: "https://github.com/ArbabAnsari/TicTacToe",
 	},
 	{

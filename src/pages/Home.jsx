@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Navbar, Footer, Card } from "../components/index.js";
+import { Navbar, Footer } from "../components/index.js";
+import Projects from "../components/Projects.jsx";
 
 const projects = [
 	{
@@ -58,14 +59,7 @@ function Home() {
 					</a>
 				</motion.div>
 			</section>
-			<section className="flex justify-center items-center flex-wrap gap-12 text-center min-h-screen pt-12 bg-neutral-950 relative" id="projects">
-				<div className="text-teal-400 md:text-4xl text-2xl font-bold">Projects</div>
-				<div className="flex justify-center flex-wrap gap-6">
-					{projects.map((item) => (
-						<Card title={item.title} desc={item.desc} githubLink={item.githubLink} live={item.live} key={item.title} />
-					))}
-				</div>
-			</section>
+			<Projects projects={projects} />
 			<section className="flex flex-col justify-center items-center text-center min-h-screen pt-12 bg-neutral-950 relative" id="contact">
 				<div className="md:h-16 md:w-42 h-12 w-20 bg-teal-400 blur-3xl absolute top-0 left-0 z-40"></div>
 				<div className="md:h-16 md:w-42 h-12 w-20 bg-teal-400 blur-3xl absolute bottom-0 right-0 z-40"></div>

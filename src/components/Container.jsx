@@ -1,5 +1,5 @@
 function Container({ children }) {
-	return <div className="min-h-screen bg-black">{children}</div>;
+  return <div className="portfolio">{children}</div>;
 }
 
 export default Container;

@@ -1,19 +1,12 @@
 function Navbar() {
-	return (
-		<nav className="flex justify-end items-center px-8 py-4 fixed top-0 right-0 left-0 backdrop-blur-lg z-10">
-			<div className="flex gap-6 text-sm">
-				<a href="#home" className="hover:text-teal-400">
-					Home
-				</a>
-				<a href="#projects" className="hover:text-teal-400">
-					Projects
-				</a>
-				<a href="#contact" className="hover:text-teal-400">
-					Contact
-				</a>
-			</div>
-		</nav>
-	);
+  return (
+    <div className="site-header page-width" aria-hidden="true">
+      <svg className="header-scribble" viewBox="0 0 100 40" fill="none">
+        <path d="M8 27C19 16 33 8 38 11S17 32 24 33S53 9 58 11S38 32 45 32S73 12 78 14S63 29 69 29S85 22 92 18" />
+        <path className="header-scribble-echo" d="M12 29C27 17 35 12 37 13M28 34L56 14M49 33L77 17M72 30L91 21" />
+      </svg>
+    </div>
+  );
 }
 
 export default Navbar;
